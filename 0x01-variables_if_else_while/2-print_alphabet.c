@@ -12,19 +12,19 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	int i;
 	char c;
 
 	i = 0;
 	c = 97;
-	while(i < 26)
+	while (i < 26)
 	{
 		putchar(c);
 		c++;
 		i++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
