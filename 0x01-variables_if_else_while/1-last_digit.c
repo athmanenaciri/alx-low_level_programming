@@ -2,8 +2,20 @@
 #include <stdio.h>
 #include <time.h>
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
+/**
+ * main - Entry point of the program.
+ *
+ * Description:
+ * This program generates a random integer 'n', calculates its last digit 'num',
+ * and then prints information about the last digit:
+ * - If 'num' is 0, it prints that it's 0.
+ * - If 'num' is less than 6 and not 0, it prints that it's less than 6 and not 0.
+ * - If 'num' is greater than 5, it prints that it's greater than 5.
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
