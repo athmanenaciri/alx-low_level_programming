@@ -3,19 +3,16 @@
 int main(void)
 {
 	int	i;
-	char	c;
 
 	i = 0;
-	c = 48;
 	while (i < 10)
 	{
-		putchar(c);
+		putchar(i + '0');
 		if (i != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		c++;
 		i++;
 	}
 	putchar('\n');
