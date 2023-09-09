@@ -21,8 +21,8 @@ int main(void)
 	ch = 122;
 	while (i < 26)
 	{
-		putchar(c);
-		c--;
+		putchar(ch);
+		ch--;
 		i++;
 	}
 	putchar('\n');
