@@ -23,12 +23,12 @@ int main(void)
 	}
 	i = 0;
 	c = 65;
-        while (i < 26)
-        {
-                putchar(c);
-                c++;
-                i++;
-        }
-        putchar('\n');
-        return (0);
+	while (i < 26)
+	{
+		putchar(c);
+		c++;
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
