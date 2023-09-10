@@ -33,6 +33,16 @@ Program Descriptions
     9-print_comb.c
         This program prints all possible combinations of single-digit numbers (0-9), with numbers separated by commas and spaces. Numbers are printed in ascending order, and the program uses a maximum of four putchar calls and does not use variables of type char.
 
+   10-Inventing is a combination of brains and materials. The more brains you use, the less material you need (advanced)
+    -> Write a program that prints all possible different combinations of two digits. Numbers must be separated by commas and spaces, and each combination should be printed only once. Numbers should be printed in ascending order, with two digits. You can only use the putchar function and use it only five times in your code.
+
+   11-The success combination in business is: Do what you do better... and: do more of what you do... (advanced)
+    -> Write a program that prints all possible different combinations of three digits. Numbers must be separated by commas and spaces, and each combination should be printed only once. Numbers should be printed in ascending order, with three digits. You can only use the putchar function and use it only six times in your code.
+
+   12-Software is eating the World (advanced)
+    -> Write a program that prints all possible combinations of two two-digit numbers. The numbers should range from 0 to 99, and combinations should be separated by commas and spaces. All
+
+
 Requirements
 
     The programs are written in C.
