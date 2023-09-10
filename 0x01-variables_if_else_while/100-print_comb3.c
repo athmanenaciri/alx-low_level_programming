@@ -1,4 +1,12 @@
 #include <stdio.h>
+/**
+ * main - Entry point of the program.
+ *
+ * Description: This program prints all possible different combinations of
+ * two digits in ascending order, separated by commas and spaces.
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
