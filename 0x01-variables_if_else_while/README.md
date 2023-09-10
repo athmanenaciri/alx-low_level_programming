@@ -1,65 +1,68 @@
-Overview
+# 0x01. C - Variables, if, else, while
+
+## Overview
 
 This directory contains a set of C programs that focus on concepts related to variables, if-else statements, and loops. These programs are part of a learning project designed to help you understand and practice fundamental concepts in C programming.
-Program Descriptions
 
-    0-positive_or_negative.c
-        This program assigns a random number to the variable n each time it is executed and prints whether the number stored in n is positive, negative, or zero.
+## Program Descriptions
 
-    1-last_digit.c
-        This program assigns a random number to the variable n each time it is executed and prints the last digit of the number stored in n, along with additional information based on whether the last digit is greater than 5, equal to 0, or less than 6.
+### 0-positive_or_negative.c
+This program assigns a random number to the variable n each time it is executed and prints whether the number stored in n is positive, negative, or zero.
 
-    2-print_alphabet.c
-        This program prints the lowercase alphabet in a single line using the putchar function.
+### 1-last_digit.c
+This program assigns a random number to the variable n each time it is executed and prints the last digit of the number stored in n, along with additional information based on whether the last digit is greater than 5, equal to 0, or less than 6.
 
-    3-print_alphabets.c
-        This program prints the lowercase alphabet followed by the uppercase alphabet in a single line, using the putchar function.
+### 2-print_alphabet.c
+This program prints the lowercase alphabet in a single line using the putchar function.
 
-    4-print_alphabt.c
-        This program prints the lowercase alphabet while omitting the letters 'q' and 'e', using the putchar function.
+### 3-print_alphabets.c
+This program prints the lowercase alphabet followed by the uppercase alphabet in a single line, using the putchar function.
 
-    5-print_numbers.c
-        This program prints all single-digit numbers (0-9) in base 10, followed by a new line.
+### 4-print_alphabt.c
+This program prints the lowercase alphabet while omitting the letters 'q' and 'e', using the putchar function.
 
-    6-print_numberz.c
-        This program prints all single-digit numbers (0-9) in base 10, followed by a new line. It is implemented without using variables of type char and with only two uses of the putchar function.
+### 5-print_numbers.c
+This program prints all single-digit numbers (0-9) in base 10, followed by a new line.
 
-    7-print_tebahpla.c
-        This program prints the lowercase alphabet in reverse order, followed by a new line, using the putchar function.
+### 6-print_numberz.c
+This program prints all single-digit numbers (0-9) in base 10, followed by a new line. It is implemented without using variables of type char and with only two uses of the putchar function.
 
-    8-print_base16.c
-        This program prints all numbers of base 16 (hexadecimal) in lowercase, followed by a new line, using the putchar function.
+### 7-print_tebahpla.c
+This program prints the lowercase alphabet in reverse order, followed by a new line, using the putchar function.
 
-    9-print_comb.c
-        This program prints all possible combinations of single-digit numbers (0-9), with numbers separated by commas and spaces. Numbers are printed in ascending order, and the program uses a maximum of four putchar calls and does not use variables of type char.
+### 8-print_base16.c
+This program prints all numbers of base 16 (hexadecimal) in lowercase, followed by a new line, using the putchar function.
 
-   10-Inventing is a combination of brains and materials. The more brains you use, the less material you need (advanced)
-    -> Write a program that prints all possible different combinations of two digits. Numbers must be separated by commas and spaces, and each combination should be printed only once. Numbers should be printed in ascending order, with two digits. You can only use the putchar function and use it only five times in your code.
+### 9-print_comb.c
+This program prints all possible combinations of single-digit numbers (0-9), with numbers separated by commas and spaces. Numbers are printed in ascending order, and the program uses a maximum of four putchar calls and does not use variables of type char.
 
-   11-The success combination in business is: Do what you do better... and: do more of what you do... (advanced)
-    -> Write a program that prints all possible different combinations of three digits. Numbers must be separated by commas and spaces, and each combination should be printed only once. Numbers should be printed in ascending order, with three digits. You can only use the putchar function and use it only six times in your code.
+### 10-print_comb2.c
+This program prints all possible combinations of two two-digit numbers (00-99), with numbers separated by a space and a comma. Numbers are printed in ascending order, and the program uses a maximum of eight putchar calls and does not use variables of type char.
 
-   12-Software is eating the World (advanced)
-    -> Write a program that prints all possible combinations of two two-digit numbers. The numbers should range from 0 to 99, and combinations should be separated by commas and spaces. All
+### 11-print_comb3.c
+This program prints all possible different combinations of three digits. Numbers must be separated by commas and spaces and should be printed in ascending order, with three digits. The program uses a maximum of six putchar calls and does not use variables of type char.
 
+### 12-print_comb4.c
+This program prints all possible combinations of two two-digit numbers (00-99), with numbers separated by a space and a comma. Numbers are printed in ascending order, and the program uses a maximum of eight putchar calls and does not use variables of type char.
 
-Requirements
+## Requirements
 
-    The programs are written in C.
-    Compilation is done using gcc with the options -Wall -Werror -Wextra -pedantic -std=gnu89.
-    The programs should have no compilation errors or warnings.
-    The code follows the Betty style guidelines, which can be checked using betty-style.pl and betty-doc.pl.
-    The use of certain functions and variables is restricted, as specified in the individual program descriptions.
+- The programs are written in C.
+- Compilation is done using gcc with the options -Wall -Werror -Wextra -pedantic -std=gnu89.
+- The programs should have no compilation errors or warnings.
+- The code follows the Betty style guidelines, which can be checked using betty-style.pl and betty-doc.pl.
+- The use of certain functions and variables is restricted, as specified in the individual program descriptions.
 
-Learning Objectives
+## Learning Objectives
 
 By completing these programs, you are expected to gain knowledge in the following areas:
 
-    Understanding arithmetic operators, logical operators, and relational operators in C.
-    Identifying values considered TRUE and FALSE in C.
-    Utilizing boolean operators and if-else statements.
-    Declaring variables of types char, int, and unsigned int.
-    Assigning values to variables.
-    Printing variable values using printf.
-    Implementing loops, specifically the while loop.
-    Familiarity with the ASCII character set.
+- Understanding arithmetic operators, logical operators, and relational operators in C.
+- Identifying values considered TRUE and FALSE in C.
+- Utilizing boolean operators and if-else statements.
+- Declaring variables of types char, int, and unsigned int.
+- Assigning values to variables.
+- Printing variable values using printf.
+- Implementing loops, specifically the while loop.
+- Familiarity with the ASCII character set.
+
