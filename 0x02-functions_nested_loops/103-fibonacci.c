@@ -11,24 +11,22 @@
 
 int main(void)
 {
-	int i;
-	long sum;
-	long j;
-	long tmp;
+    long sum;
+    long prev;
+    long current;
+	long next;
 
-	i = 0;
-	sum = 1;
-	j = 2;
-	printf("2\n");
-	while (sum <= 4000000)
+	sum = 0;
+	prev = 1;
+	current = 2;
+    while (current <= 4000000)
 	{
-		if ((sum + j) % 2 == 0)
-			printf("%ld\n", (sum + j));
-		tmp = sum;
-		sum = j;
-		j = tmp + j;
-
-		i++;
-	}
-	return (0);
+        if (current % 2 == 0)
+            sum += current;
+        next = prev + current;
+        prev = current;
+        current = next;
+    }
+    printf("%ld\n", sum);
+    return (0);
 }
