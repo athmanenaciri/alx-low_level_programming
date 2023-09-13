@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * main - Entry point of the program
+ *
+ * Description: This program uses the _putchar function
+ * to print the characters '_putchar' followed by a newline.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	_putchar('_');
