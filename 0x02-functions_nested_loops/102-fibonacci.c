@@ -1,9 +1,10 @@
-#incldue "main.h"
+#include "main.h"
 
 int main(void)
 {
 	int i;
 	int sum;
+	int j;
 
 	i = 0;
 	sum = 1;
@@ -12,7 +13,7 @@ int main(void)
 	{
 		printf("%d", sum +j);
 		if (i != 49)
-			printf(", ")
+			printf(", ");
 		j = sum;
 		i++;
 	}
