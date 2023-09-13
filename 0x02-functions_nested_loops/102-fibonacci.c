@@ -3,18 +3,18 @@
 int main(void)
 {
 	int i;
-	int sum;
-	int j;
-	int tmp;
+	long sum;
+	long j;
+	long tmp;
 
 	i = 0;
 	sum = 1;
 	j = 2;
-	printf("%d, %d, ", sum, j);
+	printf("%ld, %ld, ", sum, j);
 	while (i < 48)
 	{
-		printf("%d", sum +j);
-		if (i != 49)
+		printf("%ld", (sum +j));
+		if (i != 47)
 			printf(", ");
 		tmp = sum;
 		sum = j;
