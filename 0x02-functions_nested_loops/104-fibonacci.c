@@ -1,10 +1,11 @@
 #include "main.h"
 
 #include "main.h"
+
 /**
  * main - Entry point
  *
- * Description: Prints the first 50 Fibonacci numbers
+ * Description: Prints the first 98 Fibonacci numbers, separated by commas.
  *
  * Return: Always 0 (Success)
  */
@@ -12,17 +13,17 @@
 int main(void)
 {
 	int i;
-	unsigned long sum;
-	unsigned long j;
-	unsigned long tmp;
+	unsigned long long sum;
+	unsigned long long j;
+	unsigned long long tmp;
 
 	i = 0;
 	sum = 1;
 	j = 2;
-	printf("%ld, %ld, ", sum, j);
+	printf("%llu, %llu, ", sum, j);
 	while (i < 96)
 	{
-		printf("%ld", (sum +j));
+		printf("%llu", (sum +j));
 		if (i != 95)
 			printf(", ");
 		tmp = sum;
