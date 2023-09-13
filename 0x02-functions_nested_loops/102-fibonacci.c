@@ -20,7 +20,7 @@ int main(void)
 	printf("%ld, %ld, ", sum, j);
 	while (i < 48)
 	{
-		printf("%ld", (sum +j));
+		printf("%ld", (sum + j));
 		if (i != 47)
 			printf(", ");
 		tmp = sum;
@@ -31,5 +31,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-		
 }
