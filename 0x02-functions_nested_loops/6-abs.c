@@ -4,7 +4,8 @@
  * _abs - Computes the absolute value of an integer
  * @num: The integer to calculate the absolute value of
  *
- * Description: This function computes the absolute value of the given integer 'num'.
+ * Description: This function computes the absolute value
+ *	of the given integer 'num'.
  *
  * Return: The absolute value of 'num'.
  */
