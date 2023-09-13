@@ -13,17 +13,17 @@
 int main(void)
 {
 	int i;
-	unsigned long long sum;
-	unsigned long long j;
-	unsigned long long tmp;
+	unsigned int sum;
+	unsigned int j;
+	unsigned int tmp;
 
 	i = 0;
 	sum = 1;
 	j = 2;
-	printf("%llu, %llu, ", sum, j);
+	printf("%u, %u, ", sum, j);
 	while (i < 96)
 	{
-		printf("%llu", (sum +j));
+		printf("%u", (sum +j));
 		if (i != 95)
 			printf(", ");
 		tmp = sum;
