@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * main - Entry point for FizzBuzz program.
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -8,17 +13,15 @@ int main(void)
 	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else if (i % 5 == 0)
-		{
 			printf("Buzz");
-			if (i != 100)
-				printf(" ");
-		}
 		else if (i % 3 == 0)
-			printf("Fizz ");
+			printf("Fizz");
 		else
-			printf("%d ", i);
+			printf("%d", i);
+		if (i != 100)
+            printf(" ");
 		i++;
 	}
 	return (0);
