@@ -4,7 +4,8 @@
  * @s: A pointer to a string.
  *
  * Description: This function takes a string pointer and prints the characters
- * of the string in reverse order, followed by a new line, to the standard output.
+ * of the string in reverse order, followed by a new line,
+ *	to the standard output
  */
 
 void print_rev(char *s)
