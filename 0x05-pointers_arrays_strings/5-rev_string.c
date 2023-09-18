@@ -1,4 +1,11 @@
 #include "main.h"
+/**
+ * rev_string - Reverses a string.
+ * @s: A pointer to a string.
+ *
+ * Description: This function takes a string pointer and reverses the order of
+ * characters in the string.
+ */
 
 void rev_string(char *s)
 {
