@@ -7,16 +7,17 @@
 void puts_half(char *str)
 {
     int i;
-    int lenght;
+    int length;
 
-    lenght = strlen(str);
-    if (lenght % 2 != 0)
-        return (printf((lenght - 1) / 2));
-    i = 0;
-    while (i < lenght)
+    length = strlen(str);
+    if (length % 2 != 0)
+        i = (length - 1) / 2;
+    else
+        i = length / 2;
+    while (str[i] != '\0')
     {
-        if (i >= lenght / 2)
-            _putchar(str[i]);
+        _putchar(str[i]);
         i++;
     }
+    _putchar('\n');
 }
