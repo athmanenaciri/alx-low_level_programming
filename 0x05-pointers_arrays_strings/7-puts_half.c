@@ -1,8 +1,13 @@
 #include "main.h"
 
 /**
- * puts2 - Prints every other character of a string followed by a new line.
+ * puts_half - Prints the second half of a string followed by a new line.
  * @str: A pointer to a string.
+ *
+ * Description: This function calculates the starting index based on whether
+ * the length of the string is even or odd. If it's even, it starts printing
+ * from the middle; if it's odd, it starts printing from the middle character.
+ * The characters are printed until the end of the string, followed by a newline.
  */
 void puts_half(char *str)
 {
