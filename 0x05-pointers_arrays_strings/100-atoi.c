@@ -16,13 +16,12 @@ int _atoi(char *s)
 	sign = 1;
     while (*s == ' ' || (*s >= 9 && *s <= 13))
         s++;
-    if (*s == '-')
+    while (*s == '-' || *s == '+')
     {
-        sign = -1;
+		if (*s == '-')
+        	sign = -1;
         s++;
     }
-    else if (*s == '+')
-		s++;
     while (*s >= '0' && *s <= '9')
     {
         result = result * 10 + (*s - '0');
