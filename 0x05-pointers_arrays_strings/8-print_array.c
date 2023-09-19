@@ -5,7 +5,6 @@
  * @a: A pointer to an array of integers.
  * @n: The number of elements to print.
  */
-
 void print_array(int *a, int n)
 {
 	int i;
