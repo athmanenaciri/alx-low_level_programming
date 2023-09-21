@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * separator - Checks if a character is a separator.
+ * @c: The character to check.
+ *
+ * Return: 1 if it's a separator, 0 otherwise.
+ */
+
 int	separator(char c)
 {
 	char *sep;
@@ -15,6 +22,13 @@ int	separator(char c)
 	}
 	return (0);
 }
+
+/**
+ * cap_string - Capitalizes the first letter of each word in a string.
+ * @str: The input string.
+ *
+ * Return: A pointer to the modified string.
+ */
 
 char *cap_string(char *str)
 {
