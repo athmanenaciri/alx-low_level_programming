@@ -1,18 +1,17 @@
 #include "main.h"
 
- /* This source file defines the _puts_recursion function, which takes a pointer
- * to a character (string) as an argument and recursively prints the string's
- * characters using the write system call. It uses a while loop to iterate
- * through the string and write each character to the standard output.
+
+ /* _puts_recursion - Prints a string followed by a new line.
+ * @s: The string to be printed.
  */
+
 void _puts_recursion(char *s)
 {
-	int	i;
-
-	i = 0;
-	while(s[i])
+	if (*s == '\0')
 	{
-		write(1, &s[i], 1);
-		i++;
+		_putchar('\n');
+		return;
 	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
