@@ -1,7 +1,8 @@
 #include "main.h"
 
 /*
- * this program print's all the arguments including the executable.
+ * this program print's all the arguments
+ * including the executable.
  * using two loops, to loop around the arguments
  * and the second one to loop throught charachters .
  */
