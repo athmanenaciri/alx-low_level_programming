@@ -1,8 +1,12 @@
 #include "main.h"
 
 /*
- * this Function Creates an array of chars and intilizes
- * it with a specific char .
+ *This C function, create_array, is designed
+ *to dynamically allocate memory for an array
+ *of characters of a specified size and initialize
+ *all elements of the array with a given character c.
+ *It helps in creating an array with a desired size
+ *and initializing its contents to a specific character.
  */
 
 char *create_array(unsigned int size, char c)
