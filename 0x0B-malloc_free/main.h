@@ -6,7 +6,10 @@
 #include <stdio.h>
 #include <unistd.h>
 
+
+
 void	_putchar(char	c);
+char *_strdup(char *str);
 char *create_array(unsigned int size, char c);
 
 #endif
