@@ -81,8 +81,8 @@ char *_strcat(char *dest, char *src)
 char *str_concat(char *s1, char *s2)
 {
 	char *concatenated;
-    int len1;
-    int len2;
+	int len1;
+	int len2;
 
 	if (s1 == NULL)
 		s1 = "";
