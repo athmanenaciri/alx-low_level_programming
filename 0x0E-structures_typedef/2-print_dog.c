@@ -1,6 +1,23 @@
 #include "dog.h"
 
-/**
+/*
+ * _putstr function uses write 
+ *	system call to write the string
+ *	char by char at the stdout 
+ */
+void	_putstr(char	*str)
+{
+	int i;
+
+	i = 0;
+	while (str[i])
+	{
+		write(1, &str[i], 1);
+		i++;
+	}
+}
+
+/*
  * print_dog - Print the attributes of a dog structure
  * @d: Pointer to the dog structure to be printed
  *
