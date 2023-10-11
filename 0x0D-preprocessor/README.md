@@ -24,6 +24,8 @@ General
     In the following examples, the main.c files are shown as examples. You can use them to test your functions.
 
 Tasks
+
+
 0. Object-like Macro (mandatory)
 Create a header file that defines a macro named SIZE as an abbreviation for the token 1024.
 
