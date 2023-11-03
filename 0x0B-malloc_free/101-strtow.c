@@ -69,7 +69,8 @@ char	**strtow(char *str)
 		if (str[i] && (str[i] != ' ' && str[i] != '\t' && str[i] != '\n'))
 		{
 			k = 0;
-			while (str[i + k] && (str[i + k] != ' ' && str[i + k] != '\t' && str[i + k] != '\n'))
+			while (str[i + k] && (str[i + k] != ' '
+						&& str[i + k] != '\t' && str[i + k] != '\n'))
 				k++;
 			words[j] = malloc(k + 1);
 			if (words[j] == NULL)
